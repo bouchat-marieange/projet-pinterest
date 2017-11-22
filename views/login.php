@@ -2,33 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <title>login</title>
   </head>
   <body>
 
     <div id="globallogin">
-
-      <div class="sheetlogin">
-
-          <form class="login" action="###################.php" method="post">     <!--la fonction post s'impose car mot de passe utilisé-->
-
-          <label>utilisateur :</label>
-          <input type="text" name="recherche" value=""><br>  <!-- fenêtre de remplissage texte, nommée "utilisateur" -->
-          <br>
-          <label>mot de passe :</label>
-          <input type="text" name="recherche" value=""><br>  <!-- fenêtre de remplissage texte, nommée "mot de passe" -->
-          <br>
-
-
-          <input type="submit" class="button" value="se connecter">  <!-- bouton de confirmation pour retourner les textes -->
+      <div class="form-style-8">
+        <h2>Connectez-vous</h2>
+          <form class="login" action="" method="post">     <!--la fonction post s'impose car mot de passe utilisé-->
+            <input type="text" name="recherche" value="" placeholder="Pseudo">  <!-- fenêtre de remplissage texte, nommée "utilisateur" -->
+            <input type="password" name="recherche" value="" placeholder="Mot de passe"> <!-- fenêtre de remplissage texte, nommée "mot de passe" -->
+            <input type="submit" value="Se Connecter">  <!-- bouton de confirmation pour retourner les textes -->
           </form>
       </div>
-
-<?php
-
- ?>
-<script type="text/javascript" src="verification.js"></script>
-
+    </div>
   </body>
 </html>
