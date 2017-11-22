@@ -1,3 +1,8 @@
+//VERIFICATION EN JAVASCRIPT DES FORMULAIRES SIGNIN ET LOGIN
+
+
+// On surligne le champs si il y a une erreur, on enlève le surlignage du champ si tout ok
+
 function surligne(champ, erreur)
 {
    if(erreur)
@@ -7,7 +12,7 @@ function surligne(champ, erreur)
 }
 
 
-// On va créer 3 fonction pour vérifier les différents champs et en plus 1 mégafonction pour vérifier la totalité du formulaire avant l'envoi
+// On va créer 3 fonction pour vérifier les différents champs et en plus 1 mégafonction pour vérifier la tatalité du formulaire avant l'envoi
 
 // Vérification du pseudo - Cette fonction doit être appelée lorsque l'utilisateur à fini de saisir son pseudo
 
