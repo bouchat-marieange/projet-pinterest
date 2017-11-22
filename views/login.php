@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/login.css">
     <title>login</title>
   </head>
   <body>
