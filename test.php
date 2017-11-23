@@ -12,8 +12,9 @@ catch(Exception $e)
 $query = 'INSERT INTO users (name, password, mail) VALUES (?, ?, ?);';
 $prep = $pdo->prepare($query);
  
-$prep->bindValue(1, 'bertand', PDO::PARAM_STR);
-$prep->bindValue(2, 'ceci est un test pour desc', PDO::PARAM_STR);
+$prep->bindValue(1, 'test', PDO::PARAM_STR);
+$prep->bindValue(2, 'testpassword', PDO::PARAM_STR);
+$prep->bindValue(3, 'test@gmail.com', PDO::PARAM_STR);
 $prep->execute();
 $resultat = $pdo->query('SELECT * FROM users');
 while ($donnees = $resultat->fetch())
