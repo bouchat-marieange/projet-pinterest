@@ -23,3 +23,4 @@ while ($donnees = $resultat->fetch())
   echo ' : ';
   echo $donnees['description'];
 }
+?>
