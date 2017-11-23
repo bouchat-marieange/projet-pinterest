@@ -19,9 +19,16 @@ $prep->execute();
 $resultat = $pdo->query('SELECT * FROM users');
 while ($donnees = $resultat->fetch())
 {
-  echo '<br/>';
+  echo 'name :';
   echo $donnees['name'];
-  echo ' : ';
+  echo '<br/>';
+  
+  echo 'password ';
+  echo $donnees['password']; 
+  echo '<br/>';
+    
+  echo 'mail ';
   echo $donnees['mail'];
+  echo '<br/>';
 }
 ?>
