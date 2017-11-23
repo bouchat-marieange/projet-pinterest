@@ -15,12 +15,12 @@ $prep = $pdo->prepare($query);
 $prep->bindValue(1, 'bertand', PDO::PARAM_STR);
 $prep->bindValue(2, 'ceci est un test pour desc', PDO::PARAM_STR);
 $prep->execute();
-$resultat = $pdo->query('SELECT * FROM categories');
+$resultat = $pdo->query('INSERT INTO users (name, password, mail)VALUES ('Test', 'test', 'test@gmail.com' );
 while ($donnees = $resultat->fetch())
 {
   echo '<br/>';
-  echo $donnees['nom'];
+  echo $donnees['name'];
   echo ' : ';
-  echo $donnees['description'];
+  echo $donnees['mail'];
 }
 ?>
