@@ -9,7 +9,7 @@ class UserModel
     {
 
         try {
-            $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals','142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+            $pdo = new PDO("mysql:host=10.20.1.65;dbname=pinterest", "root", "root");
             $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         } catch (Exception $exception) {
