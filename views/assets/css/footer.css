@@ -1,0 +1,119 @@
+.footer{
+  height:150px;
+  width:100%;
+}
+
+.topfooter{
+  background-color: #2CBBBB;
+  height:50px;
+  width:100%;
+  padding-top: 0;
+  padding-left: 0;
+  display: inline-table;
+  display:inline-flex;
+  text-align: center;
+}
+
+h2{
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size:14px;
+  font-style: normal;
+  color: #4D4D4D;
+}
+
+.collaborateurs{
+  height:50px;
+  width: 33.3%;
+  align-self: flex-start;
+  background-color: #2CBBBB;
+}
+
+.adresse{
+  height:50px;
+  width: 33.3%;
+  align-self: flex-start;
+  background-color: #2CBBBB;
+}
+
+.repository{
+  height:50px;
+  width: 33.3%;
+  align-self: flex-start;
+  background-color: #2CBBBB;
+}
+
+.repository, h2:hover {
+  color: white;
+}
+
+
+.bottomfooter{
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.groupemembres{
+  height:auto;
+  width: 33.3%;
+  padding-left: 90px;
+  text-align: left;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+h3{
+  font-size: 14px;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  color: #2CBBBB;
+}
+
+.membre{
+  height:48px;
+  width: 50%;
+  padding-left: 1 1 1 1;
+  display: inline-block;
+  font-size: 14px;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  color: #2CBBBB;
+}
+
+i{
+ color:white;
+}
+
+.adressesbottom{
+  height:98px;
+  width: 33.3%;
+  align-self: flex-start;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  font-style:normal;
+  text-align: center;
+  color: #2CBBBB;
+  padding-right: 6%;
+}
+
+.adresse, h3:hover {
+  color: white;
+}
+
+
+.repo{
+  height:98px;
+  width: 33.3%;
+  padding-top: 10px;
+  align-self: flex-start;
+  text-align: center;
+  color:#2CBBBB;
+}
+
+h3:hover {
+  color: white;
+}
