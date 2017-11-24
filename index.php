@@ -1,7 +1,10 @@
 <?php
 require_once('controller/UserController.php');
 require_once('models/UserModel.php');
+require_once('controller/imageController.php');
+require_once('models/imageModel.php');
 $Usercontroller = new UserController();
+$Imagecontroller = new imageController();
 $action = "";
 extract($_GET);
 extract($_POST);
@@ -17,8 +20,19 @@ switch ($action) {
 
         $Usercontroller->signup($pseudo, $password);
         break;
+    case 'imageController@upload':
+
+        $Imagecontroller->upload($titre, $lienImage, $description, $moment);
+        break;
     case 'UserController@getHome':
         require 'views/home.php';
+        break;
+    case 'imageController@getHomePage':
+        echo "imageController@HomePage";
+        //require 'views/home.php';
+        break;
+    case 'upload':
+        require 'upload.php';
         break;
     default:
         include "views/login.php";
