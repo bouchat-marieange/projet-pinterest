@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `images`
+-- Structure de la table `10.20.1.65images`
 --
 
 CREATE TABLE `images` (
