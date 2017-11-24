@@ -21,3 +21,5 @@ class ImageModel
         $req = $this->db->prepare("INSERT INTO images (titre, image, description, d) VALUES (?,?)");
         $req->execute([$pseudo, $password]);
     }
+    
+    ?>
