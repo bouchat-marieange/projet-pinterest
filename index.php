@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once('controller/UserController.php');
 require_once('models/UserModel.php');
@@ -25,8 +24,4 @@ switch ($action) {
         include "views/login.php";
         break;
     }
-=======
-<?php
-echo "Hello Test !";
 ?>
->>>>>>> c097038e03788e707eb1afdbeef4aa75884e10f8
