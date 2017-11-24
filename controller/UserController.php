@@ -17,7 +17,7 @@ class UserController
 
     public function getHomePage()
     {
-        require "views/main.php";
+        require "views/home.php";
     }
 
     public function getLoginPage()
@@ -30,7 +30,8 @@ class UserController
         if ($this->userModel->check($pseudo, $password)) {
             header("location:index.php?action=UserController@getHome");
         } else {
-            header("location:index.php?action=UserController@getsignup");
+            require 'views/signup.php';
+            // header("location:index.php?action=UserController@getSignup");
         }
     }
 
