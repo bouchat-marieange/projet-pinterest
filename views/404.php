@@ -14,9 +14,7 @@
   </body>
 
 </html>
-<<<<<<< Updated upstream
-=======
-=======
+
 <!-- 1e possibilité -->
 
 <?php
@@ -38,5 +36,4 @@ var_dump(http_response_code());
    echo "ERREUR 404 - La page n'existe pas ou plus !";
 
 ?>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+
