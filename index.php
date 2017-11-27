@@ -1,11 +1,12 @@
 <?php
-require_once('controller/UserController.php');
-require_once('models/UserModel.php');
+require ('controller/UserController.php');
+require ('models/UserModel.php');
 $Usercontroller = new UserController();
 $action = "";
 extract($_GET);
 extract($_POST);
 extract($_POST);
+
 
 
 switch ($action) {
@@ -21,7 +22,7 @@ switch ($action) {
         require 'views/home.php';
         break;
     default:
-        include "views/login.php";
+        require "views/home.php";
         break;
     }
 ?>
