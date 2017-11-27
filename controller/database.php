@@ -31,10 +31,8 @@ class Database{
     $req=$this->getPDO()->query($statement);
     $datas= $req->fetchAll(PDO::FETCH_OBJ);
       return $datas;
-
-
-
   }
+    
   public function getImg(){
 
     $res = $this->pdo->query('SELECT * FROM images');
