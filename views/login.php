@@ -7,7 +7,9 @@
     <title>login</title>
   </head>
   <body>
-
+  <?php
+  require 'header.php';
+  ?>
     <div id="globallogin">
       <div class="form-style-8">
         <h2>Connectez-vous</h2>
@@ -18,6 +20,9 @@
           </form>
       </div>
     </div>
+  <?php
+    require 'footer.php';
+  ?>
   </body>
 
 </html>
