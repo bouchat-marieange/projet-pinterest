@@ -1,7 +1,10 @@
 .footer{
   height:150px;
   width:100%;
-  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .topfooter{
@@ -43,9 +46,7 @@ h2{
   background-color: #2CBBBB;
 }
 
-.repository, h2:hover {
-  color: white;
-}
+
 
 
 .bottomfooter{
@@ -101,9 +102,7 @@ i{
   padding-right: 6%;
 }
 
-.adresse, h3:hover {
-  color: white;
-}
+
 
 
 .repo{
@@ -115,6 +114,3 @@ i{
   color:#2CBBBB;
 }
 
-h3:hover {
-  color: white;
-}
