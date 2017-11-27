@@ -54,10 +54,10 @@
         </div>
 
         <div class="adressesbottom">
-          <a href="http://www.becode.org/"><h3>Cantersteen 10 <br>1000 Bruxelles <br><br>http://www.becode.org/</h3></a>
+          <p>Cantersteen 10 1000 Bruxelles </p><a href="http://www.becode.org/">http://www.becode.org/</a>
         </div>
 
-        <div class="repo">
+        <div class="repo" style="margin-top: 25px;">
           <h3><i class="fa fa-copyright" aria-hidden="true"></i> Powered by VIKENIMA - 2017<br>For Becode.org</h3>
         </div>
 

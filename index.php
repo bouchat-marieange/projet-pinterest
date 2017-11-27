@@ -8,6 +8,7 @@ extract($_POST);
 extract($_POST);
 
 
+
 switch ($action) {
     case 'UserController@login':
         $Usercontroller->login($pseudo, $password);
@@ -19,7 +20,7 @@ switch ($action) {
         require 'views/home.php';
         break;
     default:
-        include "views/login.php";
+        require "views/home.php";
         break;
     }
 ?>
