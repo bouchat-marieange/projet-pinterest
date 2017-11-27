@@ -14,8 +14,18 @@ class Database{
     // $this->db_user = $db_user;
     // $this->db_pass = $db_pass;
     // $this->db_host = $db_host;
-    $this->pdo = new PDO('mysql:dbname=pinterest;host=localhost','root' ,'root');
+   try
+{
+    // On se connecte à MySQL
+    $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+     
     $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch(Exception $e)
+{
+    // En cas d'erreur, on affiche un message et on arrête tout
+        die('Erreur : '.$e->getMessage());
+}
   }
 
 
