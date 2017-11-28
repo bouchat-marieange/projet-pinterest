@@ -1,7 +1,7 @@
 
-<!-- <h2>Formulaire d'inscription</h2>
+<h2>Formulaire d'inscription</h2>
 
-    <form action="test2.php"  method="post">
+    <form action="test.php"  method="post">
 
       <div>
         <label for="pseudo">Pseudo : </label>
@@ -16,38 +16,38 @@
       <div class="button">
         <input type="submit" value="S'inscrire"/>
       </div>
-</form> -->
+</form>
 
 
 <?php
-try
-{
-    // On se connecte à MySQL
-    $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
-}
-catch(Exception $e)
-{
-    // En cas d'erreur, on affiche un message et on arrête tout
-        die('Erreur : '.$e->getMessage());
-}
-$query = 'INSERT INTO users (pseudo, password) VALUES (?, ?);';
-$prep = $pdo->prepare($query);
-
-$prep->bindValue(1, 'nico', PDO::PARAM_STR);
-$prep->bindValue(2, 'testpassword', PDO::PARAM_STR);
-$prep->execute();
-$resultat = $pdo->query('SELECT * FROM users');
-while ($donnees = $resultat->fetch())
-{
-  echo 'pseudo :';
-  echo $donnees['pseudo'];
-  echo '<br/>';
-
-  echo 'password ';
-  echo $donnees['password'];
-  echo '<br/>';
-
-}
+// try
+// {
+//     // On se connecte à MySQL
+//     $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+// }
+// catch(Exception $e)
+// {
+//     // En cas d'erreur, on affiche un message et on arrête tout
+//         die('Erreur : '.$e->getMessage());
+// }
+// $query = 'INSERT INTO ustilisateurs (pseudo, password) VALUES (?, ?);';
+// $prep = $pdo->prepare($query);
+//
+// $prep->bindValue(1, 'nico', PDO::PARAM_STR);
+// $prep->bindValue(2, 'testpassword', PDO::PARAM_STR);
+// $prep->execute();
+// $resultat = $pdo->query('SELECT * FROM utilisateurs');
+// while ($donnees = $resultat->fetch())
+// {
+//   echo 'pseudo :';
+//   echo $donnees['pseudo'];
+//   echo '<br/>';
+//
+//   echo 'password ';
+//   echo $donnees['password'];
+//   echo '<br/>';
+//
+// }
 ?>
 
 
@@ -85,6 +85,21 @@ while ($donnees = $resultat->fetch())
 //     echo $donnees['password'];
 //     echo '<br/>';
 // }
+
+function add_membres ($pseudo, $password)
+{
+  $db = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+
+  $req =$db->prepare("INSERT INTO utilisateurs (pseudo, password) VALUES(:pseudo, :password)");
+  $req->execute ($_POST['pseudo'], $_POST['password']));
+  ([
+	  "pseudo"=>$pseudo,
+    "password"=>sha1($password)
+	]);
+}
+
+public function add_membres();
+
 //
 //
 // // UPDATE - UPDATE

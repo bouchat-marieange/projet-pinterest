@@ -29,14 +29,14 @@ catch(Exception $e)
     // En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
 }
-$query = 'INSERT INTO users (name, password, mail) VALUES (?, ?, ?);';
+$query = 'INSERT INTO utilisateurs (name, password) VALUES (?, ?, ?);';
 $prep = $pdo->prepare($query);
 
 $prep->bindValue(1, 'test', PDO::PARAM_STR);
 $prep->bindValue(2, 'testpassword', PDO::PARAM_STR);
 $prep->bindValue(3, 'test@gmail.com', PDO::PARAM_STR);
 $prep->execute();
-$resultat = $pdo->query('SELECT * FROM users');
+$resultat = $pdo->query('SELECT * FROM utilisateurs');
 while ($donnees = $resultat->fetch())
 {
   echo 'name :';
@@ -47,8 +47,5 @@ while ($donnees = $resultat->fetch())
   echo $donnees['password'];
   echo '<br/>';
 
-  echo 'mail ';
-  echo $donnees['mail'];
-  echo '<br/>';
 }
 ?>
