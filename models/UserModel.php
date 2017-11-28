@@ -3,14 +3,14 @@
 class UserModel
 {
 
-    private $db;
+    public $db;
 
     //public function __construct()
     //{
 
-      //  try {
-        //    $pdo = new PDO('pgsql:host=localhost;dbname=pinterest;', 'root','');
-          //  $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        try {
+            $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+            $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
  //       } catch (Exception $exception) {
    //         die($exception);
