@@ -22,8 +22,8 @@
         </form>
       </div>
       <div id="button">
-        <a href="#">Login</a>
-        <a href="#">Inscription</a>
+        <a href="login.php" id="a">Login</a>
+        <a href="signup.php" id="a">Inscription</a>
       </div>
     </header>
 
