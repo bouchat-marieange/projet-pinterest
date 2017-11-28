@@ -22,8 +22,8 @@
         </form>
       </div>
       <div id="button">
-        <a href="login.php" id="a">Login</a>
-        <a href="signup.php" id="a">Inscription</a>
+        <a href="https://pinterestvikenima.herokuapp.com/views/login.php">Login</a>
+        <a href="https://pinterestvikenima.herokuapp.com/views/signup.php">Inscription</a>
       </div>
     </header>
 
