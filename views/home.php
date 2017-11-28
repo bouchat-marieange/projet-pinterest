@@ -1,15 +1,5 @@
+<?php
 
-  <body>
-  <?php
-  include 'header.php';
-
-  ?>
-<h1>HOME PAGE</h1>
-
-  <?php
-  include 'footer.php';
-
-  ?>
-  </body>
-
-</html>
+    include 'header.php';
+    include 'main.php';
+    include 'footer.php';

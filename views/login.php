@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../projet-pinterest/views/assets/css/form.css">
+    <link rel="stylesheet" href="../views/assets/css/form.css">
     <title>login</title>
   </head>
   <body>
   <?php
-  require 'header.php';
+  include 'header.php';
   ?>
     <div id="globallogin">
       <div class="form-style-8">
@@ -20,7 +20,7 @@
       </div>
     </div>
   <?php
-    require 'footer.php';
+    include 'footer.php';
   ?>
   </body>
 

@@ -6,7 +6,9 @@
     <title>Signin</title>
 </head>
 <body>
-
+<?php
+include 'header.php';
+?>
 <form action="index.php?action=UserController@signup" method="post">
     <div class="form-style-8">
         <h2>Inscrivez-vous.</h2>
@@ -15,5 +17,8 @@
         <input type="submit" value="sign up">
     </div>
 </form>
+<?php
+include 'footer.php';
+?>
 </body>
 </html>
