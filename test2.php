@@ -9,26 +9,87 @@ catch(Exception $e)
     // En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
 }
-$query = 'INSERT INTO utilisateurs (name, password, mail) VALUES (?, ?, ?);';
-$prep = $pdo->prepare($query);
 
-$prep->bindValue(1, 'test', PDO::PARAM_STR);
-$prep->bindValue(2, 'testpassword', PDO::PARAM_STR);
-$prep->bindValue(3, 'test@gmail.com', PDO::PARAM_STR);
-$prep->execute();
-$resultat = $pdo->query('SELECT * FROM utilisateurs');
-while ($donnees = $resultat->fetch())
+// $query = 'INSERT INTO utilisateurs (name, password) VALUES (?, ?, ?);';
+// $prep = $pdo->prepare($query);
+//
+// $prep->bindValue(1, 'test', PDO::PARAM_STR);
+// $prep->bindValue(2, 'testpassword', PDO::PARAM_STR);
+// $prep->bindValue(3, 'test@gmail.com', PDO::PARAM_STR);
+// $prep->execute();
+// $resultat = $pdo->query('SELECT * FROM utilisateurs');
+// while ($donnees = $resultat->fetch())
+// {
+//   echo 'pseudo :';
+//   echo $donnees['pseudo'];
+//   echo '<br/>';
+//
+//   echo 'password ';
+//   echo $donnees['password'];
+//   echo '<br/>';
+// }
+
+// SELECT - READ
+// Selectionner des utilisateurs de la DB Heroku "utilisateurs"
+$req = $bdd->prepare('SELECT (pseudo,password) FROM utilisateurs WHERE pseudo = :pseudo AND password = :password');
+$req->execute(array('pseudo'=> $_POST['pseudo'], 'password'= $_POST['password']));
+
+//Afficher la liste des utilisateurs
+echo '<h4>Afficher la liste des utilisateurs DB Heroku "Utilisateurs"</h4>';
+echo '<ul>';
+while ($donnees = $req->fetch())
 {
-  echo 'pseudo :';
-  echo $donnees['pseudo'];
-  echo '<br/>';
-
-  echo 'password ';
-  echo $donnees['password'];
-  echo '<br/>';
-
-  echo 'mail ';
-  echo $donnees['mail'];
-  echo '<br/>';
+  echo '<li>' . $donnees['pseudo'] . ' - ' . $donnees['password']. '</li>';
 }
+echo '<ul>';
+
+
+// INSERT TO - CREATE
+// Ajouter un nouvel utilisateurs dans la DB Heroku "utilisateurs"
+$req = $bdd->prepare('INSERT INTO utilisateurs (pseudo, password) FROM utilisateurs WHERE pseudo = :pseudo AND password =:password');
+$req->execute(array('pseudo'=> $_POST['pseudo'], 'password'= $_POST['password']));
+
+// Afficher le nouvel utilisateur (pseudo / password) dans la DB Heroku "utilisateurs"
+echo '<h4>Afficher la liste nouvel utilisateur DB Heroku "Utilisateurs"</h4>';
+while ($donnees = $req->fetch())
+{
+    echo 'pseudo :';
+    echo $donnees['pseudo'];
+    echo '<br/>';
+
+    echo 'password ';
+    echo $donnees['password'];
+    echo '<br/>';
+}
+
+
+// UPDATE - UPDATE
+// Modifier nom utilisateur dans la DB Heroku "utilisateurs"
+$req = $bdd->prepare('UPDATE utilisateurs SET :pseudo WHERE id = :id');
+$req->execute(array('pseudo'=> $element, 'id'= $id ));
+
+// Modifier mot de passe utilisateur dans la DB Heroku "utilisateurs"
+$req = $bdd->prepare('UPDATE utilisateurs SET :password WHERE id = :id');
+$req->execute(array('password'=> $element, 'id'= $id ));
+
+// Afficher la modification pseudo et mot de passe utilisateur dans la DB Heroku "utilisateurs"
+echo '<h4>Afficher la liste nouvel utilisateur DB Heroku "Utilisateurs"</h4>';
+while ($donnees = $req->fetch())
+{
+    echo 'pseudo :';
+    echo $donnees['pseudo'];
+    echo '<br/>';
+
+    echo 'password ';
+    echo $donnees['password'];
+    echo '<br/>';
+}
+
+
+// DELETE - DELETE FROM
+$req = $bdd->prepare('DELETE FROM * FROM utilisateurs WHERE id = :id');
+$req->execute(array($_POST['id']));
+
+
+
 ?>
