@@ -12,7 +12,6 @@
         <h2>Inscrivez-vous.</h2>
         <p><input type="text" name="pseudo" placeholder="Créer un pseudo."></p>
         <p><input type="password" name="password" placeholder="Créer un mot de passe."></p>
-        <p><input type="email" name="email" placeholder="Entrer votre email." </p>
         <input type="submit" value="sign up">
     </div>
 </form>
