@@ -1,35 +1,16 @@
 
-<h2>Formulaire d'inscription</h2>
-
-    <form action="test.php"  method="post">
-
-      <div>
-        <label for="pseudo">Pseudo : </label>
-        <input type = "text" name="pseudo" id="pseudo" />
-      </div>
-
-      <div>
-        <label for="password">Password :</label>
-        <input type = "password" name="password" id="password" />
-      </div>
-
-      <div class="button">
-        <input type="submit" value="S'inscrire"/>
-      </div>
-</form>
-
 
 <?php
-// try
-// {
-//     // On se connecte à MySQL
-//     $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
-// }
-// catch(Exception $e)
-// {
-//     // En cas d'erreur, on affiche un message et on arrête tout
-//         die('Erreur : '.$e->getMessage());
-// }
+try
+{
+    // On se connecte à MySQL
+    $pdo = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+}
+catch(Exception $e)
+{
+    // En cas d'erreur, on affiche un message et on arrête tout
+        die('Erreur : '.$e->getMessage());
+}
 // $query = 'INSERT INTO ustilisateurs (pseudo, password) VALUES (?, ?);';
 // $prep = $pdo->prepare($query);
 //
@@ -48,10 +29,7 @@
 //   echo '<br/>';
 //
 // }
-?>
 
-
-<?php
 
 // // SELECT - READ
 // // Selectionner des utilisateurs de la DB Heroku "utilisateurs"
@@ -68,37 +46,37 @@
 // echo '<ul>';
 //
 //
-// // INSERT TO - CREATE
-// // Ajouter un nouvel utilisateurs dans la DB Heroku "utilisateurs"
-// $req = $bdd->prepare('INSERT INTO utilisateurs (pseudo, password) FROM utilisateurs WHERE pseudo = :pseudo AND password =:password');
-// $req->execute(array('pseudo'=> $_POST['pseudo'], 'password'= $_POST['password']));
-//
-// // Afficher le nouvel utilisateur (pseudo / password) dans la DB Heroku "utilisateurs"
-// echo '<h4>Afficher la liste nouvel utilisateur DB Heroku "Utilisateurs"</h4>';
-// while ($donnees = $req->fetch())
-// {
-//     echo 'pseudo :';
-//     echo $donnees['pseudo'];
-//     echo '<br/>';
-//
-//     echo 'password ';
-//     echo $donnees['password'];
-//     echo '<br/>';
-// }
+// INSERT TO - CREATE
+// Ajouter un nouvel utilisateurs dans la DB Heroku "utilisateurs"
+$req = $bdd->prepare('INSERT INTO utilisateurs (pseudo, password) FROM utilisateurs WHERE pseudo = :pseudo AND password =:password');
+$req->execute(array('pseudo'=> $_POST['pseudo'], 'password'= $_POST['password']));
 
-function add_membres ($pseudo, $password)
+// Afficher le nouvel utilisateur (pseudo / password) dans la DB Heroku "utilisateurs"
+echo '<h4>Afficher la liste nouvel utilisateur DB Heroku "Utilisateurs"</h4>';
+while ($donnees = $req->fetch())
 {
-  $db = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+    echo 'pseudo :';
+    echo $donnees['pseudo'];
+    echo '<br/>';
 
-  $req =$db->prepare("INSERT INTO utilisateurs (pseudo, password) VALUES(:pseudo, :password)");
-  $req->execute ($_POST['pseudo'], $_POST['password']));
-  ([
-	  "pseudo"=>$pseudo,
-    "password"=>sha1($password)
-	]);
+    echo 'password ';
+    echo $donnees['password'];
+    echo '<br/>';
 }
 
-public function add_membres();
+// function add_membres ($pseudo, $password)
+// {
+//   $db = new PDO('pgsql:host=ec2-46-137-174-67.eu-west-1.compute.amazonaws.com;dbname=d583l7ucmi14j1;', 'whcxkhxgfgjals', '142f864119a26f291318da08efdf2af4f656849227e3d679118eaf99f22681bb');
+//
+//   $req =$db->prepare("INSERT INTO utilisateurs (pseudo, password) VALUES(:pseudo, :password)");
+//   $req->execute ($_POST['pseudo'], $_POST['password']));
+//   ([
+// 	  "pseudo"=>$pseudo,
+//     "password"=>sha1($password)
+// 	]);
+// }
+
+
 
 //
 //
