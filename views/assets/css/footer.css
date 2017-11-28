@@ -1,440 +1,131 @@
-
-
-
-@media screen and (max-width: 479px){
-
-    h2{
-      font-family:'Open Sans Condensed', sans-serif;
-      font-size:20px;
-      font-style: normal;
-      color: white;
-    }
-
-    h3{
-      font-size: 13px;
-      font-family:'Open Sans Condensed', sans-serif;
-      font-style: normal;
-      color: white;
-    }
-
-    p{
-      font-size: 12px;
-      font-family:'Open Sans Condensed', sans-serif;
-      color: white;
-      padding-left: 160px;
-    }
-
-    .fa-membre {
-      display: inline-block;
-      font: normal normal normal 24px/1 FontAwesome;
-      font-size: auto;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    i{ /*logos C de Copyright et de Github */
-      color:white;
-    }
-
-    .footer{
-      position:absolute;
-      bottom:0px;
-      left:0px;
-      right: 0px;
-      height:450px;
-      width:100%;
-      }
-
-    .topfooter{
-      background-color: white;
-      height:50px;
-      width:100%;
-      padding-top: 5px;
-      padding-bottom: 20px;
-      padding-left: 10;
-    }
-
-    .collaborateurs{
-      height:20px;
-      width: 100%;
-      padding-top :0;
-      background-color: none;
-    }
-
-    .adresse{
-      height:20px;
-      width:100%;
-      padding-top :0;
-      background-color: none;
-    }
-
-    .repository{
-      height:20px;
-      width:350px;
-      padding-top : 15px;
-      padding-left: 190px;
-      background-color: none;
-    }
-
-    .bottomfooter{
-      background-color: #4D4D4D;
-      height: 450px;
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-      padding-bottom: 0;
-      margin-top: 0px;
-    }
-
-    .ajustcadremembres{
-      height:160px;
-      width: 100%;
-      padding : 0 0 0 0;
-    }
-
-    .groupemembres{
-      height:160px;
-      width: 100%;
-    }
-
-    .membre{
-      height:30px;
-      width:200px;
-      padding: 10 10 40 50;
-      color: #2CBBBB;
-    }
-
-    .adressesbottom{
-      height:250px;
-      width: 100%;
-      padding-top: 100px;
-      text-align:left;
-      color: #2CBBBB;
-    }
-
-    .repo{
-      height:0px;
-      width: 100%;
-      padding-bottom: 90px;
-      padding-left: 55px;
-      /*text-align:left;*/
-      color:#2CBBBB;
-    }
-
+.footer{
+  position:absolute;
+  bottom:0px;
+  left:0px;
 }
 
+.footer{
+  height:150px;
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
+.topfooter{
+  background-color: #2CBBBB;
+  height:50px;
+  width:100%;
+  padding-top: 0;
+  padding-left: 0;
+  display: inline-table;
+  display:inline-flex;
+  text-align: center;
+}
 
-/*Affichage GSM paysage et tablette portrait*/
-@media screen and (min-width: 480px) and (max-width: 959px){
+h2{
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size:18px;
+  font-style: normal;
+  color: #4D4D4D;
+}
 
+.collaborateurs{
+  height:50px;
+  width: 33.3%;
+  align-self: flex-start;
+  background-color: #2CBBBB;
+}
+
+.adresse{
+  height:50px;
+  width: 33.3%;
+  align-self: flex-start;
+  background-color: #2CBBBB;
+}
+
+.repository{
+  height:50px;
+  width: 33.3%;
+  align-self: flex-start;
+  background-color: #2CBBBB;
 }
 
 
 
 
+.bottomfooter{
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 0;
+  display: flex;
+}
 
+.groupemembres{
+  height:auto;
+  width: 33.3%;
+  padding-left: 90px;
+  text-align: left;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
 
+h3{
+  font-size: 14px;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  color: #2CBBBB;
+}
 
+.membre{
+  height:48px;
+  width: 50%;
+  padding-left: 1 1 1 1;
+  display: inline-block;
+  font-size: 14px;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  color: #2CBBBB;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Affichage tablette paysage et ordi petit à moyen*/
-@media screen and (min-width: 960px) and (max-width: 1280px){
-
-  h2{
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size:18px;
-    font-style: normal;
-    color: #4D4D4D;
-  }
-
-  h3{
-    font-size: 14px;
-    font-family:'Open Sans Condensed', sans-serif;
-    font-style: normal;
-    color: white;
-  }
-
-  .fa-membre {
-      display: inline-block;
-      font: normal normal normal 24px/1 FontAwesome;
-      font-size: auto;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-  }
-
-  i{
-    color:white;
-  }
-
-  .footer{
-    bottom:0px;
-    left:0px;
-    right: 0;
-    height:150px;
-    width:100%;
-    position: absolute;
-  }
-
-  .topfooter{
-    background-color: #2CBBBB;
-    height:50px;
-    width:100%;
-    padding-top: 0;
-    padding-left: 0;
-    display: inline-table;
-    display:inline-flex;
-    text-align: center;
-  }
-
-  .collaborateurs{
-    height:30px;
-    width: 33.3%;
-    padding-top :14px;
-    align-self: flex-start;
-    background-color: #2CBBBB;
-  }
-
-  .adresse{
-    height:30px;
-    width: 33.3%;
-    padding-top :14px;
-    align-self: flex-start;
-    background-color: #2CBBBB;
-  }
-
-  .repository{
-    height:30px;
-    width: 33.3%;
-    padding-top : 1;
-    align-self: flex-start;
-    background-color: #2CBBBB;
-  }
-
-  .bottomfooter{
-    background-color: #4D4D4D;
-    height: 150px;
-    width: 100%;
-    padding-left: 0;
-    padding-bottom: 0;
-    display: flex;
-  }
-
-  .ajustcadremembres{
-    height:148px;
-    width: 33.3%;
-  }
-
-  .groupemembres{
-    height:148px;
-    width: 350px;
-    text-align:left;
-    justify-content:space-around;
-    flex-wrap:wrap;
-    margin:0 auto;   /*permet de placer un cadre DIV au milieu, à l'intérieur d'un cadre DIV*/
-  }
-
-  .membre{
-    height:10px;
-    width:150px;
-    margin : 10 10 5 5;
+.fa-membre {
     display: inline-block;
-    font-size: 14px;
-    font-family:'Open Sans Condensed', sans-serif;
-    font-style: normal;
-    color: #2CBBBB;
-  }
+    font: normal normal normal 24px/1 FontAwesome;
+    font-size: auto;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-  .adressesbottom{
-    height:148px;
-    width: 33.3%;
-    padding-top: 23px;
-    padding-left: 50px;
-    align-self: flex-start;
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size: 14px;
-    font-style:normal;
-    text-align: center;
-    color: #2CBBBB;
-  }
+i{
+ color:white;
+}
 
-  .repo{
-    height:148px;
-    width: 33.3%;
-    padding-top: 30px;
-    padding-left:10px;
-    align-self: flex-start;
-    text-align: center;
-    color:#2CBBBB;
-  }
+.adressesbottom{
+  height:98px;
+  width: 33.3%;
+  align-self: flex-start;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  font-style:normal;
+  text-align: center;
+  color: #2CBBBB;
+  padding-right: 6%;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-/*Affichage ordi moyen à grand*/
-@media screen and (min-width: 1281px){
-
-    h2{
-      font-family:'Open Sans Condensed', sans-serif;
-      font-size:18px;
-      font-style: normal;
-      color: #4D4D4D;
-    }
-
-    h3{
-      font-size: 14px;
-      font-family:'Open Sans Condensed', sans-serif;
-      font-style: normal;
-      color: white;
-    }
-
-    .fa-membre {
-        display: inline-block;
-        font: normal normal normal 24px/1 FontAwesome;
-        font-size: auto;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-
-    i{
-      color:white;
-    }
-
-  .footer{
-    bottom:0px;
-    left:0px;
-    right: 0;
-    height:150px;
-    width:100%;
-    position: absolute;
-  }
-
-  .topfooter{
-    background-color: #2CBBBB;
-    height:50px;
-    width:100%;
-    padding-top: 0;
-    padding-left: 0;
-    display: inline-table;
-    display:inline-flex;
-    text-align: center;
-  }
-
-
-  .collaborateurs{
-    height:30px;
-    width: 33.3%;
-    padding-top :14px;
-    align-self: flex-start;
-    background-color: #2CBBBB;
-  }
-
-  .adresse{
-    height:30px;
-    width: 33.3%;
-    padding-top :14px;
-    align-self: flex-start;
-    background-color: #2CBBBB;
-  }
-
-  .repository{
-    height:30px;
-    width: 33.3%;
-    padding-top : 1;
-    align-self: flex-start;
-    background-color: #2CBBBB;
-  }
-
-  .bottomfooter{
-    background-color: #4D4D4D;
-    height: 150px;
-    width: 100%;
-    padding-left: 0;
-    padding-bottom: 0;
-    display: flex;
-  }
-
-  .ajustcadremembres{
-    height:148px;
-    width: 33.3%;
-  }
-
-  .groupemembres{
-    height:148px;
-    width: 350px;
-    text-align:left;
-    justify-content:space-around;
-    flex-wrap:wrap;
-    margin:0 auto;
-  }
-  /*permet de placer un cadre DIV au milieu, à l'intérieur d'un cadre DIV*/
-
-
-  .membre{
-    height:10px;
-    width:150px;
-    margin : 10 10 5 5;
-    display: inline-block;
-    font-size: 14px;
-    font-family:'Open Sans Condensed', sans-serif;
-    font-style: normal;
-    color: #2CBBBB;
-  }
-
-  .adressesbottom{
-    height:148px;
-    width: 33.3%;
-    padding-top: 23px;
-    padding-left: 50px;
-    align-self: flex-start;
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size: 14px;
-    font-style:normal;
-    text-align: center;
-    color: #2CBBBB;
-  }
-
-  .repo{
-    height:148px;
-    width: 33.3%;
-    padding-top: 30px;
-    padding-left:10px;
-    align-self: flex-start;
-    text-align: center;
-    color:#2CBBBB;
-  }
-
+.repo{
+  height:98px;
+  width: 33.3%;
+  padding-top: 10px;
+  align-self: flex-start;
+  text-align: center;
+  color:#2CBBBB;
 }
+
