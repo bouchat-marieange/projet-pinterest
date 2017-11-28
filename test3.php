@@ -1,24 +1,4 @@
-<h2>Formulaire d'inscription</h2>
-
-    <form action="test.php"  method="post">
-
-      <div>
-        <label for="pseudo">Pseudo : </label>
-        <input type = "text" name="pseudo" id="pseudo" />
-      </div>
-
-      <div>
-        <label for="password">Password :</label>
-        <input type = "password" name="password" id="password" />
-      </div>
-
-      <div class="button">
-        <input type="submit" value="S'inscrire"/>
-      </div>
-</form>
-
 <?php
-echo '<p>Hello test</p>';
 try
 {
     // On se connecte à MySQL
