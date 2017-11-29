@@ -1,0 +1,30 @@
+
+h6{
+font-size: 12px;
+/*line-height: 4;*/
+}
+
+a {
+
+}
+
+.container{
+  max-width:100%;
+  background: #4D4D4D;
+  bottom:0;
+  position:absolute;
+  color: #2CBBBB;
+}
+
+.row{
+  text-align:center;
+}
+
+/*.collaborateur{
+  padding-left: 5px;
+  padding-right: 5px;
+}*/
+
+#footer{
+  max-width: 100%;
+}
