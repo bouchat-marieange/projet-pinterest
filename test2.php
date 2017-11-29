@@ -1,6 +1,7 @@
 
 
 <?php
+require '/controller/heroku.php';
 try
 {
     // On se connecte à MySQL

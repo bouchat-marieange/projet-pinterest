@@ -17,8 +17,11 @@ switch ($action) {
         $Usercontroller->signup($pseudo, $password);
         break;
     case 'UserController@getHome':
-        require 'views/home.php';
+         require 'views/home.php';
         break;
+    case 'UserController@getLoginPage':
+          require 'views/login.php';
+          break;
     default:
         require "views/home.php";
         break;
