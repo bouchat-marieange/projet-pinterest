@@ -1,8 +1,8 @@
 # projet-pinterest 
-by VIKENIMA ![alt text](projet-pinterest/favicon/android-chrome-192x192.png)
+by VIKENIMA ![alt text](C:\wamp64\www\Projets\projet-pinterest\favicon\android-chrome-192x192.png)
 
 
-####Membres :
+##### Membres :
 
 1. [Marie-Ange Bouchat.](https://github.com/bouchat-marieange)(Lien Github)
 2. [Vincent Nassaux.](https://github.com/LoutreT)
