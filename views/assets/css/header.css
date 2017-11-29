@@ -5,11 +5,20 @@ header{
   background-color: #4D4D4D;
   color: #FFFFFF;
 }
-.logo{
-  width: 100px;
-  height: 100%;
-  /*border: 1px solid black;*/
-  float:
+
+#logo{
+
+  /*line-height : 150px
+  display: block;*/
+  /*margin-left: 15px;*/
+  /*text-align: left;
+  background-color: red;*/
+
+.logo image{
+  /*width: 50%;*/
+  /*background-color: blue;*/
+}
+
 }
 #entete{
   padding-top: 60px;

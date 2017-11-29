@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/style_images.css">
+    <link rel="stylesheet" href="../../projet-pinterest/views/assets/css/style_images.css">
     <!-- <script type="text/javascript" src="app_images.js"></script>
     <script type="text/javascript" src="masonry.pkgd.js"></script> -->
     <title>Isotope - Masonry</title>
