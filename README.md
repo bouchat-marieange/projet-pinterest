@@ -1,7 +1,8 @@
 # projet-pinterest 
 by VIKENIMA 
 
-![alt text](https://github.com/bouchat-marieange/projet-pinterest/blob/master/favicon/android-chrome-192x192.png)
+
+![Logo Vikenima](https://github.com/bouchat-marieange/projet-pinterest/blob/master/favicon/android-chrome-192x192.png)
 
 
 ##### Membres :
