@@ -1,5 +1,7 @@
 # projet-pinterest 
-by VIKENIMA ![alt text](C:\wamp64\www\Projets\projet-pinterest\favicon\android-chrome-192x192.png)
+by VIKENIMA 
+
+![alt text](https://github.com/bouchat-marieange/projet-pinterest/blob/master/favicon/android-chrome-192x192.png)
 
 
 ##### Membres :
