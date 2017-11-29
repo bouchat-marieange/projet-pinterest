@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <!-- Link vers notre feuille css -->
-        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="../../projet-pinterest/views/assets/css/header.css">
 
     <!-- Link vers favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
