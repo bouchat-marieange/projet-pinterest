@@ -8,15 +8,14 @@ header{
 
 #logo{
 
-  /*line-height : 150px
+  line-height : 150px
   display: block;*/
-  /*margin-left: 15px;*/
-  /*text-align: left;
-  background-color: red;*/
+  margin-left: 15px;
+  background-color: red;
 
 .logo image{
-  /*width: 50%;*/
-  /*background-color: blue;*/
+  width: 50%;*/
+  background-color: blue;
 }
 
 }
