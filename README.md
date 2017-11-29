@@ -42,3 +42,9 @@ Sur une entente collective, chaque membres du groupe à agit en temps que employ
     Pour plus de détails, jetez un oeil au [Project Board](https://github.com/bouchat-marieange/projet-pinterest/projects/1).
     
     
+    
+  Ajout d'une capture d'écran de l'application...
+    
+  Ajout d'un résultat du test lighthouse...
+    
+  Lien direct vers l'application sur Heroku...
