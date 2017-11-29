@@ -11,7 +11,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
      <!-- Link vers notre feuille css -->
-     <link rel="stylesheet" href="./assets/css/footer.css">
+     <link rel="stylesheet" href="../../projet-pinterest/views/assets/css/footer.css">
     <title>footer</title>
   </head>
 

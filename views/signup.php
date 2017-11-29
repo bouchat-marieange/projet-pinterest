@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="../../projet-pinterest/views/assets/css/form.css">
     <title>Signin</title>
 </head>
 <body>
