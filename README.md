@@ -283,4 +283,3 @@ Malgrès la bonne volonté et l'investissement de tous les membres du groupe dan
 Nous n'excluons pas la possibilité de revenir apporter des améliorations ultérieurement et de finaliser totalemenent ce projet un peu plus tard. Cela nous permettra d'acquérir et de maitriser les compétences qu'il ne nous a pas été possible de maîtriser dans le temps imparti au vue de la compléxité de la tâche, du niveau de compétences de chacun des membres du groupe, des aléas liés aux problèmes techniques et aux inévitables erreurs commises par les apprennants en cours d'apprentissage.
 
 Chaque nouveau projet nous apprends davantage et nous rend plus compétent. Ce qui nous semble encore compliqué aujourd'hui, nous paraitra certainement beaucoup plus évident dans quelques semaines.
->>>>>>> marieange
