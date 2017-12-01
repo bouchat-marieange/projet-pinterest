@@ -15,7 +15,7 @@
 
 ## Objectif du projet :
 
-Par groupe de 4, sur une durée de 7 jours ouvrables, réaliser une copie du site pinterest en utilisant les connaissances et l'experience accumulées depuis le début de la formation.
+Par groupe de 4, à l'origine, la mission était sur une durée de 7 jours ouvrables pour réaliser une copie du site pinterest en utilisant les connaissances et l'experience accumulées depuis le début de la formation.
 
 [Lien direct vers le breifing de l'exercice.](https://github.com/becodeorg/Lovelace-promo-2/tree/master/Projects/projet-pinterest)
 
@@ -25,12 +25,12 @@ Par groupe de 4, sur une durée de 7 jours ouvrables, réaliser une copie du sit
 
 
 ## Cadre du projet:
-Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 2017 au mercredi 29 novembre 2017 dans le cadre de la formation BeCode Bruxelles/Central après 2 mois de formation portant essentiellement sur HTML/CSS, Javascript, PHP/MySQL, MVC, POO).
+Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 2017 au mercredi 29 novembre 2017 dans le cadre de la formation BeCode Bruxelles/Central à presque 2 mois de formation portant essentiellement sur HTML/CSS, Javascript, PHP/MySQL, , Bootstraps, MVC, POO).
 
 
 ## Agenda
 
-### lundi 20 décembre:
+### lundi 20 novembre 2017:
 
 **Marie-Ange**
 
@@ -47,7 +47,9 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Mission de Front-End, création de branche personnelle, accord avec l'équipe, accepter les tâches données...
+*Etude des consignes données par Marie-Ange sur forum privé propre à l'équipe sur Ryver, pour se conformer aux demandes de Marie-Ange.
+*Bilan noté dans la rubrique plus bas à la date du mercredi 29 décembre.
 
 **Kevin:**
 
@@ -58,7 +60,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 *
 
 
-### mardi 21 décembre:**
+### mardi 21 novembre:**
 
 **Marie-Ange**
 
@@ -75,7 +77,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Mission en cours sur HTML-CSS.
 
 **Kevin:**
 
@@ -86,7 +88,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 *
 
 
-### mercredi 22 décembre:**
+### mercredi 22 novembre:**
 
 **Marie-Ange**
 
@@ -104,7 +106,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Le projet a été interrompu pour ce jour.
+*Ce Mercredi : tout le monde à stoppé le projet pour prendre les explications des professeurs sur le fonctionnement de la PHP-POO (Php Orientation Objet). Exercices toutes la journée.
 
 **Kevin:**
 
@@ -115,7 +118,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 *
 
 
-### jeudi 23 décembre:**
+### jeudi 23 novembre:**
 
 **Marie-Ange**
 
@@ -126,7 +129,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Reprise de la mission; Recherches éléments pour réaliser mission
 
 **Kevin:**
 
@@ -138,14 +141,14 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 
 
-### vendredi 24 décembre:**
+### vendredi 24 novembre:**
 
 **Marie-Ange**
 
 * Matinée installation de différents logiciels de visualisation de la DB Heroku en PostgreSQL (SQLelectron,Pgadmin, etc...). Après 4 essais de logiciels différents, le logiciel Adminer fonctionne enfin et me donne accès visuellement à la DB sur Heroku pour pouvoir commencer test CRUD dans la DB
 * Switch Front-end - Backend:
 * Brief de Kevin sur la structure MVC, controller et models utilisées sur le projet
-* Renonnomage et restructuration tables et champs en fonction des noms utilisés dans le code controller et models.
+* Rennomage et restructuration tables et champs en fonction des noms utilisés dans le code controller et models.
 * Essai de requêtes SQL pour opération CRUD directement sur la DB Heroku (problème de connexion), essai avec DB local
 * Problèmes rencontrés dans la gestion du repo (merge, push, etc... - perte de données)
 * Merge de chacunes des branches unes par unes, résolution des conflits pour repartir sur une master saine et identiques pour tous avant le weekend.
@@ -153,7 +156,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Suite de la mission
 
 **Kevin:**
 
@@ -164,11 +167,11 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 *
 
 
-### lundi 27 décembre:**
+### lundi 27 novembre:**
 
 **Marie-Ange**
 
-* Explication des media queries à Vincent et ajout d'un fichier md d'unification des points de rupture pour toutes les parties du projets au niveau des medias queries
+* Bref explication des media queries à Vincent (par forum) et ajout d'un fichier md d'unification des points de rupture pour toutes les parties du projets au niveau des medias queries
 * Essai dans différents repos séparés de solution d'affichage layout en grille des images comportant titre et descripton. (snippets( html,css, js), isotope (impliquant install node.js, bower, npm, ...),mansonry responsive grid, et enfin mansonry)
 * L'affichage avec Mansonry (https://masonry.desandro.com/) fini par fonctionner.
 * Mise en forme html / css de l'affichage de la grille image responsive dans repo séparé, mise en place d'effet de survol
@@ -180,7 +183,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Suite mission
 
 **Kevin:**
 
@@ -191,16 +194,15 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 *
 
 
-### mardi 28 décembre:**
+### mardi 28 novembre:**
 
 **Marie-Ange**
 
-* Reglage de détails affichage grille image et envoi sur master du projet pinterest pour que Nicolas puisse l'intégré dans le MVC.
-* Explication des media queries à Vincent
+* Reglage de détails affichage grille image et envoi sur master du projet pinterest pour que Nicolas puisse l'intégrer dans le MVC.
 * Ajout d'un fichier md d'unification des points de rupture pour toutes les parties du projets au niveau des medias queries.
 * Modification formulaire signup.php (retire champ mail) et adaptation DB
 * Essai requête SQL CRUD directement sur DB Heroku
-* Ajout lien sur boutonn inscription et connexion dans header
+* Ajout lien sur bouton inscription et connexion dans header
 * Création papier d'une vingtaines de logos et choix avec l'équipe de celui retenu.
 * Vectorisation du logo et choix de polices et enregistrement au différents formats pour usage sur site ou webapp.
 * Création du package favicon , importation dans le repo et application du favicon de notre logo à la page heroku
@@ -210,7 +212,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Le formateur intervient et me conseille de découvrir Bootstraps, un logiciel en ligne qui permet de réaliser du Web Responsive selon la taille des écran (écran de PC, ou de Tablette ou de GSM), ce qui intègre un meilleur Media Querie que ce qui m'a été conseillé.
+* En moins de 24h je reconfigure intégralement mon travail sur une méthode moderne.
 
 **Kevin:**
 
@@ -221,7 +224,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 *  
 
 
-### mercredi 29 décembre:**
+### mercredi 29 novembre:**
 
 **Marie-Ange**
 
@@ -234,7 +237,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*
+*Travail terminé sur les header et footer sur l'utilisation de Bootstraps en modifiant intégralement tous les fichiers Bootstraps pour correspondre au media querie aux formats choisi par Marie-Ange et aussi aux emplacements choisis par elle.
+*Point remarquable : Mont travail a été réalisé en respectant à la fois les consignes de Marie-Ange et de l'utilisation d'un logiciel inconnu recommandé par mon formateur 24 heures plus tôt. 
 
 **Kevin:**
 
@@ -253,12 +257,15 @@ Sur une entente collective, chaque membres du groupe à agit en temps que employ
 + Marie-Ange :
      + __Back-end__: Deploiment Heroku, Création Bd Mysql,
      + __Front-end__: Prototypes et Maquettes, création et vectorisation du logo, Utilisation et création de grilles responsive, utilisation masonry,
+     
 + Vincent
-     + __Back-end__:
-     + __Front-end__: Création et mise en forme du footer, application du logiciel Bootstrap.
+     + __Back-end__: POO bordélique, Kévin a dû s'en occuper donc je n'ai pas pu voir le travail des autres dans la POO...
+     + __Front-end__: Création et mise en forme du Footer et Header, Découverte et application du logiciel Bootstrap.
+     
 + Kevin
      + __Back-end__: Deploiment Heroku, Création Bd Mysql, Programation orienté objets, Création des controllers et models, Application du MVC
      + __Front-end__:
+
 + Nico
      + __Back-end__: Application MVC
      + __Front-end__: Création de la charte graphique, mise en forme et application des views (login, signin, header, main ect...)
@@ -278,8 +285,8 @@ https://pinterestvikenima.herokuapp.com/
 
 ## Evolution
 
-Malgrès la bonne volonté et l'investissement de tous les membres du groupe dans le projet, nous ne sommes pas parvenus à atteindre tous les obectifs fixés.
+Malgré la bonne volonté et l'investissement de tous les membres du groupe dans le projet, nous ne sommes pas parvenus à atteindre tous les obectifs fixés. Comme bcp d'autres groupe de la formation à cause des contraintes très élevées.
 
-Nous n'excluons pas la possibilité de revenir apporter des améliorations ultérieurement et de finaliser totalemenent ce projet un peu plus tard. Cela nous permettra d'acquérir et de maitriser les compétences qu'il ne nous a pas été possible de maîtriser dans le temps imparti au vue de la compléxité de la tâche, du niveau de compétences de chacun des membres du groupe, des aléas liés aux problèmes techniques et aux inévitables erreurs commises par les apprennants en cours d'apprentissage.
+Nous n'excluons pas la possibilité de revenir apporter des améliorations ultérieurement et de finaliser totalemenent ce projet un peu plus tard. Cela nous permettra d'acquérir et de maitriser les compétences qu'il ne nous a pas été possible de maîtriser dans le temps imparti au vue de la compléxité de la tâche, du niveau de compétences de chacun des membres du groupe, des aléas liés aux problèmes techniques et aux inévitables erreurs commises par les apprenants en cours d'apprentissage.
 
 Chaque nouveau projet nous apprends davantage et nous rend plus compétent. Ce qui nous semble encore compliqué aujourd'hui, nous paraitra certainement beaucoup plus évident dans quelques semaines.
