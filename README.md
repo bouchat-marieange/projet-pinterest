@@ -97,7 +97,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 * Commit et merge unes à unes, résolution de conflits de toutes les branches pour obtenir master unifiée
 * Vérification et repassage sur le code formulaire Vincent login signin avec Nicolas
 * Ajout mise en forme formulaires via style.css en parallèle avec Nicolas
-* Après concertation avec Nicolas, on garde sa version plus épurée et la charte graphique qu'il a utilisé pour les formulaires signin et login.
+* Après concertation, on garde la version de Nicoloa plus épurée et la charte graphique qu'il a utilisé pour les formulaires signin et login.
 * Ajout d'un fichier md contenant la nouvelle charte graphique, couleurs, polices utilisées par Nicolas
 * Commit et merge unes à unes, résolution de conflits de toutes les branches pour obtenir master unifiée 
 * Mise à niveau fonctionnement POO et MVC grâce à la veille de Kevin et Kevin
