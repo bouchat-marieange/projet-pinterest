@@ -43,6 +43,7 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 * Création des fichiers de l'arborescence dans le repo avant clone par les autres membres du groupe
 * Envoi des demandes d'ajout de tous les membres comme collaborateurs au repo principal.
 * Révision en équipe de la structure de l'arborescence et modification de l'arborescence dans le repo
+* Atttribution en équipe des tâches à effectuer en priorité.
 
 **Vincent** 
 
