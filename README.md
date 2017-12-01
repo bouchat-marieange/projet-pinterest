@@ -17,6 +17,18 @@
 
 Par groupe de 4, à l'origine, la mission était sur une durée de 7 jours ouvrables pour réaliser une copie du site pinterest en utilisant les connaissances et l'experience accumulées depuis le début de la formation.
 
+* Mise en place du projet et répartition des différentes taches.
+* Analyse des objectifs, prises de décisiont sur mes propres objectifs.
+* lancement du projet
+* Travail sur les premières pages views
+* Création des formulaires, choix de la charte graphique
+* Cours sur la poo.
+* Travail générale sur le projet
+* Travail générale sur le projet
+* Travail générale sur le projet
+* Derniere tentative de liaison MVC (infructueuse)
+* Révision des pages views finition des liens
+*. Débrief générale mise au point du site pour rendu finale.
 [Lien direct vers le breifing de l'exercice.](https://github.com/becodeorg/Lovelace-promo-2/tree/master/Projects/projet-pinterest)
 
 
