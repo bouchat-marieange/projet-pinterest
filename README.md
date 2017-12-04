@@ -53,7 +53,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Arrivé en retard mise à niveau du projet avec le reste de mon équipe gestion du repo et attribution de tâches. 
+
 
 **Nicolas**
 
@@ -82,7 +83,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Création des difféerents controller php POO UserController image controller et les modeles premier push échouer car master écrasée. 
+
 
 **Nicolas**
 
@@ -114,7 +116,9 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Mise au point avec l'équipe pour remise à niveaux du du cours POO PHP  
+* le projet était trop avancé pour certain et ce qui a causé un manque de motivation générale. 
+
 
 **Nicolas**
 
@@ -136,7 +140,9 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Après remise à niveau il y a eu une meilleur compréhension au niveaux de la POO. 
+* connexion à la bas de données ok inscription utilisateur et login ok push en fin de journée travaillé a caus d'un push sur la master. 
+
 
 **Nicolas**
 
@@ -163,7 +169,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Recommencer le travail perdu la veille. Connexion pgsql avec HEROKU beaucoup d'erreur et gros manque de communication de notre part. 
+
 
 **Nicolas**
 
@@ -190,7 +197,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Les fichiers on de nouveau été écrasé grosse baisse de motivation. Le recommencer a chaques fu pénible.  
+
 
 **Nicolas**
 
@@ -220,7 +228,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Gestion de l'applicaiton en ligne affichage des images sans base de données car fichier image model écrasé reprise avec masonry 
+
 
 **Nicolas**
 
@@ -246,7 +255,8 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Kevin:**
 
-*
+* Travail terminé... Dead line mauvaise gestion. Mais je crois avoir beaucoups appris quand même. 
+
 
 **Nicolas**
 
