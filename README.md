@@ -17,18 +17,6 @@
 
 Par groupe de 4, à l'origine, la mission était sur une durée de 7 jours ouvrables pour réaliser une copie du site pinterest en utilisant les connaissances et l'experience accumulées depuis le début de la formation.
 
-* Mise en place du projet et répartition des différentes taches.
-* Analyse des objectifs, prises de décisiont sur mes propres objectifs.
-* lancement du projet
-* Travail sur les premières pages views
-* Création des formulaires, choix de la charte graphique
-* Cours sur la poo.
-* Travail générale sur le projet
-* Travail générale sur le projet
-* Travail générale sur le projet
-* Derniere tentative de liaison MVC (infructueuse)
-* Révision des pages views finition des liens
-*. Débrief générale mise au point du site pour rendu finale.
 [Lien direct vers le breifing de l'exercice.](https://github.com/becodeorg/Lovelace-promo-2/tree/master/Projects/projet-pinterest)
 
 
@@ -59,18 +47,18 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Mission de Front-End, création de branche personnelle, accord avec l'équipe, accepter les tâches données...
-*Etude des consignes données par Marie-Ange sur forum privé propre à l'équipe sur Ryver, pour se conformer aux demandes de Marie-Ange.
-*Bilan noté dans la rubrique plus bas à la date du mercredi 29 décembre.
+* Mission de Front-End, création de branche personnelle, accord avec l'équipe, accepter les tâches données...
+* Etude des consignes données par Marie-Ange sur forum privé propre à l'équipe sur Ryver, pour se conformer aux demandes de Marie-Ange.
+* Bilan noté dans la rubrique plus bas à la date du mercredi 29 décembre.
 
 **Kevin:**
 
-*Arrivé en retard mise à niveau du projet avec le reste de mon équipe gestion du repo et attribution de tâches.
-
+*
 
 **Nicolas**
 
-*
+* Mise en place du projet et répartition des différentes taches.
+* Analyse des objectifs, prises de décisiont sur mes propres objectifs.
 
 
 ### mardi 21 novembre:**
@@ -90,15 +78,17 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Mission en cours sur HTML-CSS.
+* Mission en cours sur HTML-CSS.
 
 **Kevin:**
 
-*Création des difféerents controller php POO UserController image controller et les modeles premier push échouer car master écrasée.
+*
 
 **Nicolas**
 
-*
+* lancement du projet
+* Travail sur les premières pages views
+* Création des formulaires, choix de la charte graphique
 
 
 ### mercredi 22 novembre:**
@@ -119,17 +109,16 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Le projet a été interrompu pour ce jour.
-*Ce Mercredi : tout le monde à stoppé le projet pour prendre les explications des professeurs sur le fonctionnement de la PHP-POO (Php Orientation Objet). Exercices toutes la journée.
+* Le projet a été interrompu pour ce jour.
+* Ce Mercredi : tout le monde à stoppé le projet pour prendre les explications des professeurs sur le fonctionnement de la PHP-POO (Php Orientation Objet). Exercices toutes la journée.
 
 **Kevin:**
 
-*Mise au point avec l'équipe pour remise à niveaux du du cours POO PHP 
-*le projet était trop avancé pour certain et ce qui a causé un manque de motivation générale.
+*
 
 **Nicolas**
 
-*
+* Cours sur la poo.
 
 
 ### jeudi 23 novembre:**
@@ -143,16 +132,15 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Reprise de la mission; Recherches éléments pour réaliser mission
+* Reprise de la mission; Recherches éléments pour réaliser mission
 
 **Kevin:**
 
-*Après remise à niveau il y a eu une meilleur compréhension au niveaux de la POO.
-*connexion à la bas de données ok inscription utilisateur et login ok push en fin de journée travaillé a caus d'un push sur la master.
+*
 
 **Nicolas**
 
-*
+* Travail générale sur le projet
 
 
 
@@ -171,15 +159,15 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Suite de la mission
+* Suite de la mission
 
 **Kevin:**
 
-*Recommencer le travail perdu la veille. Connexion pgsql avec HEROKU beaucoup d'erreur et gros manque de communication de notre part.
+*
 
 **Nicolas**
 
-*
+* Travail générale sur le projet
 
 
 ### lundi 27 novembre:**
@@ -198,15 +186,15 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Suite mission
+* Suite mission
 
 **Kevin:**
 
-*Les fichiers on de nouveau été écrasé grosse baisse de motivation. Le recommencer a chaques fu pénible. 
+*
 
 **Nicolas**
 
-*
+* Travail générale sur le projet
 
 
 ### mardi 28 novembre:**
@@ -227,16 +215,17 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Le formateur intervient et me conseille de découvrir Bootstraps, un logiciel en ligne qui permet de réaliser du Web Responsive selon la taille des écran (écran de PC, ou de Tablette ou de GSM), ce qui intègre un meilleur Media Querie que ce qui m'a été conseillé.
+* Le formateur intervient et me conseille de découvrir Bootstraps, un logiciel en ligne qui permet de réaliser du Web Responsive selon la taille des écran (écran de PC, ou de Tablette ou de GSM), ce qui intègre un meilleur Media Querie que ce qui m'a été conseillé.
 * En moins de 24h je reconfigure intégralement mon travail sur une méthode moderne.
 
 **Kevin:**
 
-*Gestion de l'applicaiton en ligne affichage des images sans base de données car fichier image model écrasé reprise avec masonry
+*
 
 **Nicolas**
 
-*  
+* Derniere tentative de liaison MVC (infructueuse)
+* Révision des pages views finition des liens
 
 
 ### mercredi 29 novembre:**
@@ -252,16 +241,16 @@ Cet exercice s'est déroulé sur la période s'étalant du mardi 21 novembre 201
 
 **Vincent**
 
-*Travail terminé sur les header et footer sur l'utilisation de Bootstraps en modifiant intégralement tous les fichiers Bootstraps pour correspondre au media querie aux formats choisi par Marie-Ange et aussi aux emplacements choisis par elle.
-*Point remarquable : Mont travail a été réalisé en respectant à la fois les consignes de Marie-Ange et de l'utilisation d'un logiciel inconnu recommandé par mon formateur 24 heures plus tôt. 
+* Travail terminé sur les header et footer sur l'utilisation de Bootstraps en modifiant intégralement tous les fichiers Bootstraps pour correspondre au media querie aux formats choisi par Marie-Ange et aussi aux emplacements choisis par elle.
+* Point remarquable : Mont travail a été réalisé en respectant à la fois les consignes de Marie-Ange et de l'utilisation d'un logiciel inconnu recommandé par mon formateur 24 heures plus tôt. 
 
 **Kevin:**
 
-*Travail terminé... Dead line mauvaise gestion. Mais je crois avoir beaucoups appris quand même.
+*
 
 **Nicolas**
 
-*
+*. Débrief générale mise au point du site pour rendu finale.
 
 ## Répartition du travail :
 
@@ -302,6 +291,7 @@ https://pinterestvikenima.herokuapp.com/
 
 Malgré la bonne volonté et l'investissement de tous les membres du groupe dans le projet, nous ne sommes pas parvenus à atteindre tous les obectifs fixés. Comme bcp d'autres groupe de la formation à cause des contraintes très élevées.
 
-Nous n'excluons pas la possibilité de revenir apporter des améliorations ultérieurement et de finaliser totalemenent ce projet un peu plus tard. Cela nous permettra d'acquérir et de maitriser les compétences qu'il ne nous a pas été possible de maîtriser dans le temps imparti au vue de la compléxité de la tâche, du niveau de compétences de chacun des membres du groupe, des aléas liés aux problèmes techniques et aux inévitables erreurs commises par les apprenants en cours d'apprentissage.
+Nous n'excluons pas la possibilité de revenir apporter des améliorations ultérieurement et de finaliser totalemenent ce projet un peu plus tard. Cela nous permettra d'acquérir et de maitriser les compétences qu'il ne nous a pas été possible de maîtriser dans le temps imparti au vue de la compléxité de la tâche,
+ du niveau de compétences de chacun des membres du groupe, des aléas liés aux problèmes techniques et aux inévitables erreurs commises par les apprenants en cours d'apprentissage.
 
 Chaque nouveau projet nous apprends davantage et nous rend plus compétent. Ce qui nous semble encore compliqué aujourd'hui, nous paraitra certainement beaucoup plus évident dans quelques semaines.
