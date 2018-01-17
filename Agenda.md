@@ -32,7 +32,7 @@
 * Analyse des objectifs, prises de décisiont sur mes propres objectifs.
 
 
-## mardi 21 novembre:**
+## mardi 21 novembre:
 
 **Marie-Ange**
 
@@ -63,7 +63,7 @@
 * Création des formulaires, choix de la charte graphique
 
 
-## mercredi 22 novembre:**
+## mercredi 22 novembre:
 
 **Marie-Ange**
 
@@ -95,7 +95,7 @@
 * Cours sur la poo.
 
 
-## jeudi 23 novembre:**
+## jeudi 23 novembre:
 
 **Marie-Ange**
 
@@ -120,7 +120,7 @@
 
 
 
-## vendredi 24 novembre:**
+## vendredi 24 novembre:
 
 **Marie-Ange**
 
@@ -147,7 +147,7 @@
 * Travail générale sur le projet
 
 
-## lundi 27 novembre:**
+## lundi 27 novembre:
 
 **Marie-Ange**
 
@@ -175,7 +175,7 @@
 * Travail générale sur le projet
 
 
-## mardi 28 novembre:**
+## mardi 28 novembre:
 
 **Marie-Ange**
 
@@ -187,8 +187,6 @@
 * Création papier d'une vingtaines de logos et choix avec l'équipe de celui retenu.
 * Vectorisation du logo et choix de polices et enregistrement au différents formats pour usage sur site ou webapp.
 * Création du package favicon , importation dans le repo et application du favicon de notre logo à la page heroku
-
-
 
 
 **Vincent**
@@ -207,7 +205,7 @@
 * Révision des pages views finition des liens
 
 
-## mercredi 29 novembre:**
+## mercredi 29 novembre:
 
 **Marie-Ange**
 
